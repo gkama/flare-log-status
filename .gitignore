@@ -426,3 +426,10 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# Status page development
+node_modules/
+playwright-report/
+test-results/
+*.log
+.env.*

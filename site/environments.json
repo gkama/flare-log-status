@@ -1,0 +1,13 @@
+[
+  {
+    "id": "dev",
+    "name": "Development",
+    "services": [
+      { "id": "core", "name": "Core API", "healthUrl": "https://core.dev.flarelog.net/health" },
+      { "id": "media", "name": "Media API", "healthUrl": "https://media.dev.flarelog.net/health" },
+      { "id": "voice", "name": "Voice API", "healthUrl": "https://voice.dev.flarelog.net/health" },
+      { "id": "eventprocessor", "name": "Event Processor", "healthUrl": "https://eventprocessor.dev.flarelog.net/health" },
+      { "id": "web", "name": "Web", "healthUrl": "https://dev.flarelog.net/health" }
+    ]
+  }
+]
