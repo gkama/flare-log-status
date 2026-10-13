@@ -1,0 +1,13 @@
+{
+  "name": "flare-log-status",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24 <25" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/health.test.js tests/monitor.test.js",
+    "test:browser": "playwright test"
+  },
+  "devDependencies": { "@playwright/test": "1.64.0" }
+}
